@@ -1,0 +1,6 @@
+print('This program calculate the average of the given numbers in a list .')
+print('Click Enter to proceed ')
+input('>>>')
+a = eval(input('Enter the numbers in list like [ ., ..,]  ==> '))
+avg = sum(a)/len(a)
+print(f'Average of the given list {a} is {avg} ')
