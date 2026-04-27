@@ -1,0 +1,5 @@
+file=open('practice.txt','w+')
+file.write('Hello GitHub!')
+file.seek(0)
+print(file.read())
+file.close()
