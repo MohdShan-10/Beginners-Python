@@ -1,0 +1,5 @@
+L=eval(input('Enter a list of numbers ==> '))
+print('The list you entered is ==> ',L)
+L=list(set(L))
+L.sort(reverse=True)
+print('After removing duplicates and sorting in descending order, the list is ==> ',L)
